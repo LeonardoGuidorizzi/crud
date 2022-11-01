@@ -9,3 +9,15 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+
+ //Para realizar o primeiro acesso ao BD e importante criar uma model 
+ //e verificar se essa model e criada no BD
+ //Isso precisa ser feito pelo menos a primeira vez, para saber 
+ //npx prisma migrate dev
+
+
+//model tbl_usuario {
+ // id Int @id  @default(autoincrement())
+ // nome String 
+//}
